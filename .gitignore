@@ -1,0 +1,4 @@
+# ignore rendered wav files
+/*.wav
+.DS_store
+.ipynb_checkpoints
