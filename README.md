@@ -6,9 +6,7 @@ The sonified audio can be found in the [wav-files](./wav-files) directory.
 The data files from ESA used as the source for the sonicition can be found in the [ESA-Swarm-Handbook](./notebooks/ESA-Swarm-Handbook) directory.
 More data can be downloaded and added using the [ESA Handbook website](https://swarmhandbook.earth.esa.int/catalogue/index).
 
----
-
-## Jupyter Notebooks
+## Jupyter Notebook
 The sonification scripts were created in a Jupyter notebook. New sonifications can be made using the notebook in the [notebooks](./notebooks) directory.
 
 #### Requirements/packages
