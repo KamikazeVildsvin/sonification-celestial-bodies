@@ -1,7 +1,22 @@
 # Sonification Scripts for Celestial Bodies
-This repository contains a Jupyter notebook with the sonification scripts used to make the audio from space weather data.
+This repository contains the sonification scripts used to generate audio from space weather data. 
+The audio is used as a foundation for the compositions in the multi-disiplinary art project, "Celestial Bodies".
 
-## Requirements/packages
+The sonified audio can be found in the [wav-files](./wav-files) directory.
+The data files from ESA used as the source for the sonicition can be found in the [ESA-Swarm-Handbook](./notebooks/ESA-Swarm-Handbook) directory.
+More data can be downloaded and added using the [ESA Handbook website](https://swarmhandbook.earth.esa.int/catalogue/index).
+
+---
+
+## Jupyter Notebooks
+The sonification scripts were created in a Jupyter notebook. New sonifications can be made using the notebook in the [notebooks](./notebooks) directory.
+
+#### Requirements/packages
+To be able to edit and re-run the Jupyter notebook, first install `jupyter` using `pip`:
+```
+pip install jupyter
+```
+
 To be able to run the sonification script in the Jupyter notebook, the packages specified in the `requirements.txt` needs to be installed. 
 This can be done with the following command:
 ```
@@ -9,5 +24,7 @@ pip install -r requirements.txt
 ```
 The [pyrubberband](https://github.com/bmcfee/pyrubberband) package needs to have the [Rubberband](https://breakfastquay.com/rubberband/) library installed in order to work.
 
-## Jupyter Notebooks
-The development of the script was done in a Jupyter notebook. The notebook can be found in the [notebooks](./notebooks) folder. 
+Now, the notebook can be started using the following command:
+```
+jupyter notebook ./notebooks/Celestial_Bodies_Notebook.ipynb
+```
